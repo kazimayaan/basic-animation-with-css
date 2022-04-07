@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+ 
+header{
+    width: 100vw;
+    height: 8vh;
+  background-image: url("https://i.pinimg.com/736x/d4/32/89/d43289c071866276d5f3148a77a9de7c.jpg");
+    border: 2px solid black;
+    border-radius: 5px;
+
+    font-family: 'Bebas Neue', cursive;
+font-family: 'Ingrid Darling', cursive;
+font-family: 'Josefin Sans', sans-serif;
+
+    padding-top: 30px;
+    color:azure ;
+    text-align: center;
+    font-size: larger;
+text-transform:capitalize;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Ingrid Darling', cursive;
+font-family: 'Josefin Sans', sans-serif;
+text-transform: uppercase;
+text-decoration: double;
+}
+
+h2{
+    animation-name: heading;
+    animation-duration: 5s;
+    animation-timing-function: ease-in;
+    animation-iteration-count:3;
+    animation-direction: alternate-reverse;
+}
+
+body{
+    background-image: url("https://wallpapercave.com/wp/wp6338735.jpg");
+}
+
+
+.progress{
+    height: 2px;
+    background-color: red;
+    animation-name: load;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes load {
+    0%{
+        width: 0vw;
+    }
+    50%{
+        width: 60vw;
+
+    }
+    100%{
+        width: 100vw;
+
+    }
+}
+@keyframes heading {
+    0%{
+        width: 0%;
+        height:0%
+    }
+    50%{
+        width: 50%;
+        height: 30%;
+    }
+    100%{
+        width: 100%;
+    }
+}
+.container{
+    display:grid;
+   justify-content: center;
+
+}
+.ka{
+    text-transform:capitalize;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Ingrid Darling', cursive;
+font-family: 'Josefin Sans', sans-serif;
+text-transform: uppercase;
+text-decoration: double;
+
+    color: cornsilk;
+    animation-name: KIYO;
+    animation-duration: 4S;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+    animation-direction:alternate-reverse ;
+
+}
+@keyframes KIYO{
+    0%{
+        height: 0vh; 
+        width: 0vw  }
+    50%{
+        height:50vh;
+        width: 40vw;
+    }
+    100%{
+        height:100vh;
+        width: 100vw;
+    }
+}
